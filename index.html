@@ -1,0 +1,21 @@
+<html>
+<body>
+  <div align="center">
+    <h1 style="color:red" id="quote">
+    </h1>
+  </div>
+  <script>
+  var quoteArray=[
+    "Hi",
+    "Bye",
+    "Good",
+    "Nice",
+    "Work Hard",
+    "Play board"
+  ];
+  var randomNumber=Math.floor((Math.random()*20)%6+1);
+  console.log(randomNumber);
+  document.getElementById('quote').innerHTML=quoteArray[randomNumber-1];
+  </script>
+</body>
+</html>
