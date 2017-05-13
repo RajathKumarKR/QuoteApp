@@ -1,19 +1,14 @@
 {
-  "name": "quoteapp",
+  "name": "a-quote-a-day",
   "version": "1.0.0",
-  "description": "shows the quote",
-  "main": "index.js",
+  "description": "Displays a random quote",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RajathKumarKR/QuoteApp.git"
-  },
-  "author": "",
+  "author": "edureka",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RajathKumarKR/QuoteApp/issues"
-  },
-  "homepage": "https://github.com/RajathKumarKR/QuoteApp#readme"
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
